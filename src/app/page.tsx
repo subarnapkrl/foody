@@ -8,7 +8,9 @@ export default function Home() {
       <Button>
         <Link href={"/client"}>Visit Signup</Link>
       </Button>
-      <p>If you want to sign in as ADMIN: email: super@admin.com pw: 1234</p>
+      <p>If you want to sign in as</p>
+
+      <p className="text-2xl"> ADMIN: email: super@admin.com pw: 1234</p>
     </div>
   );
 }
