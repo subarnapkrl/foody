@@ -1,7 +1,7 @@
 import { auth } from "@/lib/auth";
-import { Role } from "../../../../generated/prisma";
 import { redirect } from "next/navigation";
 import { SignInForm } from "./_components/sign-in-form";
+import { Role } from "../../../../generated/prisma";
 
 const Page = async () => {
   const session = await auth();
