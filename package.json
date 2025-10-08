@@ -7,11 +7,12 @@
     "build": " next build",
         "db:studio": "prisma studio",
     "db:push": "prisma db push",
-    "db:migrate": "prisma migrate dev"
+    "db:migrate": "prisma migrate dev",
+        "db:seed": "tsx prisma/seed.ts"
   },
   
  "prisma": {
-    "seed": "node prisma/seed.ts"
+    "seed": "tsx prisma/seed.ts"
   },
   
   "dependencies": {
