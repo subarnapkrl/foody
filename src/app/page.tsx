@@ -7,8 +7,8 @@ export default function Home() {
       <h1 className="text-5xl text-center mt-4">FOODIE</h1>
       <Button>
         <Link href={"/client"}>Visit Signup</Link>
-        <p>If you want to sign in as ADMIN: email: super@admin.com pw: 1234</p>
       </Button>
+      <p>If you want to sign in as ADMIN: email: super@admin.com pw: 1234</p>
     </div>
   );
 }
