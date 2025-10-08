@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "prisma generate && next dev",
-       "build": "prisma generate && prisma migrate deploy && node prisma/seed.ts && next build",
-    "postbuild": "prisma generate",
+    "build": "prisma generate && prisma db push --skip-generate && node prisma/seed.ts && next build",    "postbuild": "prisma generate",
     "db:seed": "tsx prisma/seed.ts",
     "db:studio": "prisma studio",
     "db:push": "prisma db push",
